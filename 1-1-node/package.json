@@ -1,0 +1,16 @@
+{
+	"name": "node-esm",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node --es-module-specifier-resolution=node src/index.js"
+	},
+    "type": "module",
+	"engines": {
+		"node": ">=13.2.0",
+		"npm": ">=6.13.1"
+	},
+	"dependencies": {
+		"@yangzw/bruce-us": "1.0.3"
+	}
+}
